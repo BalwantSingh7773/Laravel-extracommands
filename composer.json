@@ -1,0 +1,20 @@
+{
+    "name": "balwant/laravel_extra_commands",
+    "description": "This Package Provide New Laravel Artisan Commands For Genrating View,Helper,Services much more..",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Extracommands\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\Extracommands\\ExtraCommandsProvider"
+            ]
+        }
+    }
+}
