@@ -15,12 +15,5 @@
         "psr-4": {
             "Laravel\\Extracommands\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Laravel\\Extracommands\\ExtraCommandsProvider"
-            ]
-        }
     }
 }
